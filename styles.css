@@ -1,0 +1,239 @@
+*{
+    margin: 0; /*da espaço*/
+    padding: 0;/*distância da tag até*/
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+background: url(foto-de-fundo.jpg);
+background-size: 1380px 660px;
+background-repeat: no-repeat;
+width: 100%;
+height: 730px;
+position: relative;
+background-size: 100% 100%;
+
+}
+
+header{
+    display: flex;/*eh uma estilização mais simples de posicionar os elementos, seja no meio, no canto*/
+    flex-direction: row;/*direção é uma linha*/
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;  
+    padding: 5px;
+}
+
+a{
+margin: 20px;/*dando margem diretamente nos elementos do menu, se eu referenciar diretamente no <ul> ele iria dar espaço na div*/
+font-size: 20px;
+}
+
+a:hover{  
+    color: blueviolet;
+    transition: 0.3s all; /*transição do menu vai ser em 0.3 milisegundos*/
+}
+
+#titulo{
+    flex-direction: column;
+    line-height: 10px ;
+
+}
+
+h1{
+    font-weight:  200;
+    color: #620674;
+}
+
+.txt-apresentacao{
+    text-align: center;
+    color: rgb(253, 251, 255);
+    font-size: 60px;
+    margin-top: 190px;
+}
+
+.icones{
+    display: flex;
+    margin-top: 160px;
+    justify-content: center;
+   
+}
+i{
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+    margin-top: 1px;
+    
+}
+
+i:hover{
+    color:  blueviolet;
+    transition: 0.3s all;
+}
+.col-left{
+    display: inline-block;
+    align-items: left;
+    justify-content: left;
+    width: 400px;
+}
+
+.sobre-mim{
+    margin-top: 150px;
+}
+h2{
+    text-align: center;
+    color: blueviolet;
+}
+.sobre-mim-container{
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+    justify-content: space-around   ;
+    align-items: center;  
+    background-color:white;  
+}
+
+.col-left{
+    padding-left: 40px;
+    margin: 20px;
+}
+.foto-perfil{
+    width: 320px;
+    height: 300px;
+    box-shadow:8px 8px 8px #620674;
+   
+}
+
+.col-right{
+   display: inline-block;
+   margin: px;
+   width: 650px;
+   background-color: white;
+}
+
+.texto{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    align-items: right;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.formacoes{
+    margin-top:200px;
+    height: 120vh;
+    background-color: rgb(89, 46, 130);
+    
+}
+
+.formacoes-container{
+    display: flex; /*só de colocar display: flex ele ja deixa os elementos do lado um do outro*/
+    justify-content: center;
+    
+}
+
+.formacoes-container>div{
+  background-color: #f1f1f1;
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  border-radius: 10px;
+
+}
+
+.formacao{
+    font-size: 15px;    
+    line-height: 1.9em;
+
+}
+.skills{
+    margin-top: 80px;
+    
+}
+.skills-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 10px;
+    height: 320px;
+
+}
+.texto{
+    font-size: 20px;
+}
+
+.skills-colum-left{
+    margin-top: 15px;
+    width: 500px;
+    height: 200px;
+    justify-content: center;
+  
+    
+    
+}
+.skills-colum-right{
+    display: block;
+    width: 400px;
+    height: 300px;
+    text-align: left;
+    align-items: left;
+    margin-top: 10px;
+    font-size: 20px;
+
+
+}
+
+.html{
+    width: 110px;
+    height: 22px;
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+}
+
+.css{
+    width: 80px;
+    height: 22px;
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+   
+}
+
+.JS{
+    width: 80px;
+    height: 22px;
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+
+}
+
+.python{
+    width: 110px;
+    height: 22px;
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+
+}
+footer{
+    margin-top: 180px;
+    height: 100px;
+    padding: 5px;
+    
+}
+
+.contato-container{
+    background-color: #f1f1f1;
+    margin-top:30px;
+    text-align: center;
+    line-height: 30px;
+}
